@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Merriweather');
+body  {
+  background-color: #363636;
+}
+
+.contact {
+  width: 350px;
+  height: 100px;
+  background-color: #8c8c8c;
+  color: #000000;
+  margin: auto;
+  font-size: 21px;
+  font-family: 'Lobster', cursive;
+  border: 2px solid #b7b7b7;
+  border-radius: 35px;
+}
