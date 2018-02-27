@@ -16,3 +16,15 @@ for (var i = 0; i < names.length; i++) {
   //FOR extra Html and Seperate Email
   // document.getElementById("text").insertAdjacentHTML('beforeend', htmlEmail);
 }
+  //Object
+  var person = {firstName: "ram", lastName: "baral", email: "ram@gmail.com"};
+  console.log(person["firstName"]);
+  console.log(person["lastName"]);
+
+// //var array=["first" , "second", "third"];
+// array[2];
+//
+// //Object
+// var data = {firstName: "ram", lastName: "baral", email: "ram@gmail.com"}
+//
+// var name = person.firstName();
