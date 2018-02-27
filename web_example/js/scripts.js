@@ -5,11 +5,16 @@ var email = ["irene.florez@gmail.com","ro_jin25@icloud.com","jade.a.manrique@gma
 // Hello.lenght will give the length of hello=5
 for (var i = 0; i < names.length; i++) {
   //document.getElementById("text").innerHTML = "test";
-  var htmlName = "<p>" + " Name: " + names[i] + "</p>";
-  var htmlEmail = "<p>" + "E-mail: " + email[i] + "</p>";
+  var html =    "<div>" +
+                "<p>Name: " + names[i] + "</p>" +
+                "<p>E-mail: " + email[i] + "</p>"
+                "</div>";
+  // var htmlName =    "<div><p>Name: " + names[i] + "</p>";
+  // var htmlEmail = " <p>" + "E-mail: " + email[i] + "</p></div>";
 
-  document.getElementById("text").insertAdjacentHTML('beforeend', htmlName);
-  document.getElementById("text").insertAdjacentHTML('beforeend', htmlEmail);
+  document.getElementById("text").insertAdjacentHTML('beforeend', html);
+
+  // document.getElementById("text").insertAdjacentHTML('beforeend', htmlEmail);
   // console.log(name[i]);
   // console.log(email[i]);
 }
